@@ -14,3 +14,6 @@ Skit
 Financial stuff for project
 More experts
 Survey for CCCA/Lucas Chang
+Sponser pictures
+Team pictures(Make it smaller)
+FLL logo
