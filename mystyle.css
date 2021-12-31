@@ -200,6 +200,15 @@ img.vertical_img {
 	height:700px;
 }
 
+img.zbox_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:905px;
+	height:570px;
+}
+
 img.img_robot {
 	margin-top: 5px;
 	margin-bottom: 5px;
