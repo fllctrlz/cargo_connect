@@ -219,13 +219,22 @@ img.img_zones {
 }
 
 
-img.attachemnt_img {
+img.attachment_img {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-right: 5px;
 	margin-left: 5px;
 	width:400px;
 	height:266px;
+}
+
+img.attachment_vertical_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:300px;
+	height:400px;
 }
 
 img.sponsorxs {
