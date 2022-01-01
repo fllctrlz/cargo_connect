@@ -14,6 +14,24 @@ img.small_img {
 	height:210px;
 }
 
+img.z-box_3d_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:300px;
+	height:300px;
+}
+
+img.z-box_3d_rectangular_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:300px;
+	height:222px;
+}
+
 img.small_img_rotate {
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -235,6 +253,15 @@ img.attachment_img {
 	margin-left: 5px;
 	width:400px;
 	height:266px;
+}
+
+img.member_img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width:57px;
+	height:86px;
 }
 
 img.attachment_vertical_img {
