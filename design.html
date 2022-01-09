@@ -101,38 +101,24 @@
 		to combine and speed up missions and increase repeatability to achieve maximum efficiency, 
 		through completion time and size. By the end of the season, our attachments will often be in their fifth or sixth iteration.
 		</p>
-		<br>
-		<center>
-	<img class="xxl_img" src=images/robot/robotcad.jpg></img>
-		</center>
-		<!--
-		<center>
-			<iframe width="680" height="480" src="https://www.youtube.com/embed/04ZmZaizfaM" frameborder="0"
-				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>>
-			</iframe>
-		</center>
-		<br>
-	-->
-	<h2>Our Base Robot</h2>
 	<br>
-	<img class="img_robot" src="images/robot/robot1.JPG"></img>
-	<img class="img_robot" src="images/robot/robot2.JPG"></img>
-	<img class="img_robot" src="images/robot/robot3.JPG"></img>
-	<img class="img_robot" src="images/robot/robot4.JPG"></img>
-
 	<br>
+	<h2> Our Base Robot</h2>
 	<br>
 
 	<p>
-		Our robot is very robust and compact with a frame for strength. We use three light sensors and a gyro sensor for maximum
-		flexibility,
-		with shielding from ambient light. Our robot has small guide wheels on the back, which are steering neutral, and small sized wheels with a small diameter.
+		Our robot is very robust and compact with a frame for strength and an easier way to drop on attachments. We use four light sensors,
+	
+		with shielding from ambient light. Our robot has two small trailing wheels at the back of the frame, which are steering neutral, and small sized wheels with a small diameter.
 		These small wheels allow for more accurate movements as they decrease the error associated with the drive motor rotation sensors.
-		However, we sacrifice some speed due to our wheels having a small diameter.	
+		However, we sacrifice some speed due to our wheels having a small diameter.	Our robot also has three guide wheels, on the sides of the robot to follow the wall.
 	</p>
 	<br>
+	<center>
+		<img class="xxl_img" src=images/robot/robotcad.jpg></img>
+	</center>
 	<br>
+	<br>		
 
 		<h2>425 Points In 150 Seconds (2:30) During our Regional Tournament</h2>
 		<br>
@@ -151,26 +137,13 @@
 	<!--	<h2>Building Our Robot And Attachments</h2> -->
 		<br>
 		<br>
-		<h2>Examples of Robotic Testing Conducted by Ctrl-Z </h2>
-		<br>
-		<h4>Finding the Optimal Set of Color Sensors for our Robot</h4>
-		<p>When first designing our robot we wanted to make sure that all the light/color sensors behaved similarly.
-			Color
-			sensors each return small differences in readings because of variations in manufacturing. For example, if
-			you were to place
-			two different color sensors on the same black line, each would return different values for light intensity.
-			Sometimes
-			the difference may be significant. To make sure that all our light sensors had about the same reading we
-			completely
-			shielded ten color sensors to eliminate the variable of ambient light and recorded the reading for each of
-			the color sensors
-			on black and white. We then found the three color sensors which have the closest reading to each
-			other and used
-			those three color sensors on the robot.
-		</p>
+		<h2>Example of Robotic Testing Conducted by Ctrl-Z </h2>
+		
+		
+	
 		<br>
 		<h4>Making the Robot Drive Straight</h4>
-		<p>We have found that the move functions provided by the EV3 Python suite are unreliable. Although they have
+		<p>We have found that the move functions provided by the EV3 suite are unreliable. Although they have
 			a
 			built in PID feature, they still do not move the robot in a straight line. To test this, we set a designated
 			starting spot
@@ -183,16 +156,6 @@
 			programming section of this website). We conducted the same experiment using our block and found that there
 			was much less error
 			and the robot would consistently end up in the same position on the table.
-		</p>
-		<br>
-		<h4>Light Sensor Distance Experiment</h4>
-		<p>Our light sensors were dependent on the distance they were away from the mat. We found out that our light
-			sensors
-			were too low to the mat and were not picking up proper light readings. We used the Visual Studio Code Debug Window which can
-			track the
-			different readings distance and light readings on the motors and sensors. We tracked the readings to see if they would change properly
-			from white to
-			black; 100 to 0. They did not reach those values so we realized it was too far from the mat.
 		</p>
 		<br>
 
@@ -210,7 +173,7 @@
 				<tr>
 					<td class="tick-border">"Z" Cargo Plane Arm</td>
 					<td class="tick-border">
-						This attachment consists of a long arm and a series of gears that engages 
+						This attachment, which lowers the Cargo Plane door, consists of a long arm and a series of gears that engages 
 						with the medium "D" motor in the rear of the robot.  For ease of installation,
 						the attachment rests in the robot's bay and the Technic knob gear on the 
 						attachment easily engages with the motor.  Using bevel gears to change the 
@@ -281,38 +244,17 @@
 				<tr>
 					<td class="tick-border">The BIG Burj</td>
 					<td class="tick-border">
-						This attachment pushes 3 beams down at the Safety Factor mission model. The robot pushes
-						the attachment into Safety Factor. A funnel is used to perfectly line up the attachment.
-						Beams are used to push two lateral supports and an elastic-band powered arm pushes a third
-						support in the middle. This also locks the attachment onto the mission model which is left behind
-						when the robot backs up.
+						This attachment pushes 1 cargo container to the circle containing the chicken and a 
+					    platooning truck with 2 cargo containers. 
+						The robot places the wind turbine
+						onto the Large Delivery blue holder. Then the robot uses the D motor to lower the Big Burj attachment, 
+						to place the parcel on the Home Delivery front door. 
+						
 					</td>
 					<td width="44%" class="tick-border">
 						<img class="attachment_img" src="images/robot/attachment6-1.jpg"></img>
 						<img class="attachment_img" src="images/robot/attachment6-2.jpg"></img>
 					
-					</td>
-				</tr>
-				<tr>
-					<td class="tick-border">Jig: Housey</td>
-					<td class="tick-border">
-						This attachment is a jig that lines the robot up for the Traffic Jam mission. The jig is
-						pushed up against the south wall and the edge of base, which allows for maximum accuracy 
-						when positioning and launching the robot.
-						
-					</td>
-					<td width="44%" class="tick-border"><img class="attachment_img"
-							src="images/robot/attachment6.jpg"></img></td>
-					</td>
-				</tr>
-				<tr>
-					<td class="tick-border">Black Circle</td>
-					<td class="tick-border">
-						This attachment pushes a variety of units from the Design and Build mission into the black circle
-						north of the launch area.
-					</td>
-					<td width="44%" class="tick-border"><img class="attachment_img"
-							src="images/robot/attachment7.jpg"></img></td>
 					</td>
 				</tr>
 			</tbody>
@@ -324,7 +266,5 @@
 	<script src="jquery/jquery-1.11.1.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
-
-</html>
 
 </html>
